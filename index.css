@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('game2.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(251, 243, 250);
+    text-align: center;
+    padding-top: 100px;
+}
+h2 {
+    font-size: 28px;
+    background: rgba(11, 225, 233, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+input[type="number"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+#btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0f30e;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+#btn:hover {
+    background-color: #ef0cc6;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgb(22, 211, 22);
+}
+#msg {
+    font-size: 18px;
+    margin-top: 20px;
+    min-height: 24px;
+}
